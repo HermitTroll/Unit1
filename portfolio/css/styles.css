@@ -1,0 +1,69 @@
+/*
+reset css
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 1px solid red;
+}
+
+html {
+    background-image: url(../image/potatoes.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%, 150%;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 75%;
+    margin: auto;
+    font-size: 200%;
+}
+
+h1 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 200%;
+}
+
+h2 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 200%;
+}
+
+li {
+    background-color: rgba(145, 25, 25, 0.5);
+    list-style-type: none;
+    width: 33.33%;
+    float: left;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+}
+
+div {
+    width: 50%;
+    float: left;
+    height: 100%;
+    min-height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    color: white;  
+}
+
+h3 {
+    font-size: 150%;
+}
+
+img {
+    max-width: 25%;
+}
